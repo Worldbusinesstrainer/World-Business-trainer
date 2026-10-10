@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 460" fill="none">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B2545"/>
+      <stop offset="1" stop-color="#1FA2A6"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4FC3F7"/>
+      <stop offset="1" stop-color="#1FA2A6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Fondo decorativo -->
+  <circle cx="440" cy="90" r="120" fill="url(#g2)" opacity="0.15"/>
+  <circle cx="90" cy="400" r="100" fill="#0B2545" opacity="0.06"/>
+
+  <!-- Tarjeta principal (navegador) -->
+  <rect x="70" y="90" width="420" height="270" rx="18" fill="#fff" stroke="#E3E9F0" stroke-width="2"/>
+  <rect x="70" y="90" width="420" height="46" rx="18" fill="url(#g1)"/>
+  <rect x="70" y="118" width="420" height="18" fill="url(#g1)"/>
+  <circle cx="98" cy="113" r="6" fill="#4FC3F7"/>
+  <circle cx="118" cy="113" r="6" fill="#FFFFFF" opacity="0.6"/>
+  <circle cx="138" cy="113" r="6" fill="#FFFFFF" opacity="0.3"/>
+
+  <!-- Contenido simulado -->
+  <rect x="100" y="165" width="180" height="16" rx="8" fill="#0B2545" opacity="0.85"/>
+  <rect x="100" y="195" width="260" height="10" rx="5" fill="#E3E9F0"/>
+  <rect x="100" y="215" width="220" height="10" rx="5" fill="#E3E9F0"/>
+  <rect x="100" y="235" width="240" height="10" rx="5" fill="#E3E9F0"/>
+
+  <rect x="100" y="275" width="120" height="38" rx="19" fill="#1FA2A6"/>
+  <rect x="240" y="275" width="120" height="38" rx="19" fill="#fff" stroke="#E3E9F0"/>
+
+  <!-- Gráfico de crecimiento -->
+  <rect x="360" y="200" width="110" height="130" rx="10" fill="#F5F8FB"/>
+  <polyline points="375,310 405,280 430,295 455,235" stroke="#1FA2A6" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <circle cx="375" cy="310" r="5" fill="#0B2545"/>
+  <circle cx="405" cy="280" r="5" fill="#0B2545"/>
+  <circle cx="430" cy="295" r="5" fill="#0B2545"/>
+  <circle cx="455" cy="235" r="6" fill="#1FA2A6"/>
+
+  <!-- Barra de progreso -->
+  <rect x="360" y="345" width="110" height="8" rx="4" fill="#E3E9F0"/>
+  <rect x="360" y="345" width="78" height="8" rx="4" fill="#1FA2A6"/>
+</svg>
